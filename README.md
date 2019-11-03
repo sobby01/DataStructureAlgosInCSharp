@@ -1,2 +1,2 @@
 # DSAInCSharp
-All The sorting algorithms in C#
+All The Data structures and algorithms in C#
