@@ -11,7 +11,8 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10,3};
+            //int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10,3};
+            int[] unSortedArray = new[] {23, 29, 15, 19,31,7,9,5,2 };
             Console.WriteLine("unsorted Array");
             unSortedArray.ToList().ForEach(x => Console.Write(x.ToString() + " "));
             Console.WriteLine("\n Press number for following: \n");
@@ -21,6 +22,7 @@ namespace DSA
             Console.WriteLine("Press 4 for Quick Sort \n");
             Console.WriteLine("Press 5 for Insertion Sort\n");
             Console.WriteLine("Press 6 for Bucket Sort\n");
+            Console.WriteLine("Press 7 for Shell Sort\n");
 
             string number = Console.ReadLine();
             int result;
@@ -41,6 +43,10 @@ namespace DSA
                     break;
                 case "5":
                     sort = new InsertionSort();
+                    sort.Sort(unSortedArray);
+                    break;
+                case "7":
+                    sort = new ShellSort();
                     sort.Sort(unSortedArray);
                     break;
             }
