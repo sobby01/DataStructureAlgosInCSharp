@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DSA.Sorting\DSA.Sorting.csproj">
+      <Project>{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}</Project>
+      <Name>DSA.Sorting</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

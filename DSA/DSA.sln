@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{58E02B2E-05FA-47A0-97B3-C367AF69525F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Main", "DSA\DSA.Main.csproj", "{58E02B2E-05FA-47A0-97B3-C367AF69525F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Sorting", "DSA.Sorting\DSA.Sorting.csproj", "{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{58E02B2E-05FA-47A0-97B3-C367AF69525F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E02B2E-05FA-47A0-97B3-C367AF69525F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E02B2E-05FA-47A0-97B3-C367AF69525F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
