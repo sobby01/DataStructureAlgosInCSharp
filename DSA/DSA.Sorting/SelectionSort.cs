@@ -9,7 +9,7 @@ namespace DSA.Sorting
             int size = arr.Length;
             int min = -1;
             int temp = 0;
-            for (int indexer = 0; indexer < size; indexer++)
+            for (int indexer = 0; indexer < size -1; indexer++)
             {
                 min = indexer;
                 //Find Min and then Swap

@@ -11,7 +11,7 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10};
+            int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10,3};
             Console.WriteLine("unsorted Array");
             unSortedArray.ToList().ForEach(x => Console.Write(x.ToString() + " "));
             Console.WriteLine("\n Press number for following: \n");
