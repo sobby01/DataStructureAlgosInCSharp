@@ -36,7 +36,7 @@ namespace DSA
                     sort.Sort(unSortedArray);
                     break;
                 case "2":
-                    sort = new SelectionSort();
+                    sort = new BubbleSort();
                     sort.Sort(unSortedArray);
                     break;
             }
