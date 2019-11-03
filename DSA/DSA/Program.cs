@@ -39,6 +39,10 @@ namespace DSA
                     sort = new BubbleSort();
                     sort.Sort(unSortedArray);
                     break;
+                case "5":
+                    sort = new InsertionSort();
+                    sort.Sort(unSortedArray);
+                    break;
             }
 
             unSortedArray.ToList().ForEach( x=> Console.Write(x.ToString()+ " "));
