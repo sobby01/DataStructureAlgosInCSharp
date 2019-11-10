@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Main", "DSA\DSA.Main.csproj", "{58E02B2E-05FA-47A0-97B3-C367AF69525F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Sorting", "DSA.Sorting\DSA.Sorting.csproj", "{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA.Sorting", "DSA.Sorting\DSA.Sorting.csproj", "{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Maths", "DSA.Maths\DSA.Maths.csproj", "{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2E062F-4BDB-48A1-A67F-B5E7FCF7D99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DSA.Maths;
 
 namespace DSA
 {
@@ -11,6 +12,8 @@ namespace DSA
     {
         static void Main(string[] args)
         {
+            MathsPrograms();
+            return;
             //int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10,3};
             int[] unSortedArray = new[] {23, 29, 15, 19,31,7,9,5,2 };
             Console.WriteLine("unsorted Array");
@@ -52,6 +55,33 @@ namespace DSA
             }
 
             unSortedArray.ToList().ForEach( x=> Console.Write(x.ToString()+ " "));
+            Console.ReadKey();
+        }
+
+        public static void MathsPrograms()
+        {
+            Console.WriteLine("\n Press number for following: \n");
+            Console.WriteLine("Press 1 for Finding Number of digits: \n");
+            string number = Console.ReadLine();
+            int result;
+            ISorting sort = new SelectionSort();
+            if (!int.TryParse(number, out result) && (result > 0))
+            {
+                Console.WriteLine("Provide the valid input");
+            }
+
+            switch (number)
+            {
+                case "1":
+                    Console.WriteLine("Provide the number");
+                    string numberToConvert = Console.ReadLine();
+                    double.TryParse(numberToConvert, out var newdouble);
+                    var fDigits = new FindDigits();
+                    double value= fDigits.FindDigit(newdouble);
+                    Console.WriteLine("TotalNumbers: {0}", value);
+                    break;
+            }
+
             Console.ReadKey();
         }
     }
