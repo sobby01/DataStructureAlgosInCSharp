@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA.Sorting", "DSA.Sorting\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Maths", "DSA.Maths\DSA.Maths.csproj", "{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.LinkedList", "DSA.LinkedList\DSA.LinkedList.csproj", "{8AB71633-D60F-499A-B105-FB3B338537A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Stack", "DSA.Stack\DSA.Stack.csproj", "{0FF05284-5FFC-4673-A33B-D365200F0621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DCFA15D-1DBE-4F08-9C60-18AEDA9A0619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB71633-D60F-499A-B105-FB3B338537A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB71633-D60F-499A-B105-FB3B338537A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB71633-D60F-499A-B105-FB3B338537A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB71633-D60F-499A-B105-FB3B338537A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF05284-5FFC-4673-A33B-D365200F0621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF05284-5FFC-4673-A33B-D365200F0621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF05284-5FFC-4673-A33B-D365200F0621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF05284-5FFC-4673-A33B-D365200F0621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
