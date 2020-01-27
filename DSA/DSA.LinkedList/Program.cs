@@ -29,7 +29,7 @@ namespace DSA.LinkedList
                 {
                     case "1":
                         NodeImpl objNodeImpl = new NodeImpl();
-                        Node currentNode = objNodeImpl.CreateNodeLinking();
+                        Node<int> currentNode = objNodeImpl.CreateNodeLinking();
 
                         while (currentNode != null)
                         {

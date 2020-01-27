@@ -1,6 +1,7 @@
 ﻿using DSA.Sorting;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +11,30 @@ namespace DSA
 {
     public class Program
     {
+
+        private static void DemailChanges()
+        {
+            System.Globalization.CultureInfo objCultureEnUS = new System.Globalization.CultureInfo("en-US");
+            double num;
+            decimal num1;
+            string values = "1.11111111111111E+18";
+            double.TryParse(values, NumberStyles.Any, objCultureEnUS, out num);
+            Console.WriteLine(num.ToString());
+            Console.WriteLine("\n");
+            decimal.TryParse(values, NumberStyles.Any, objCultureEnUS, out num1);
+            Console.WriteLine(num1.ToString());
+            Console.WriteLine("\n");
+            Console.ReadKey();
+
+        }
+
+       
+
         static void Main(string[] args)
         {
+            DemailChanges();
+            return;
+
             MathsPrograms();
             return;
             //int[] unSortedArray = new[] {3, 5, 1, 4, 7, 2, 8, 9, 10,3};
