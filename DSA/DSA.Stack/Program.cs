@@ -10,7 +10,8 @@ namespace DSA.Stack
     {
         static void Main(string[] args)
         {
-
+            ValidParenthesis vp = new ValidParenthesis();
+            vp.IsValid("([]");
         }
     }
 }

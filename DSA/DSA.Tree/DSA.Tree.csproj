@@ -43,8 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BFS_LevelOrderTraveral_NewLine.cs" />
+    <Compile Include="BFS_LevelOrderTraversal.cs" />
+    <Compile Include="BinaryTreeToDoublyLinkedList.cs" />
+    <Compile Include="BinaryTree_BalancedBinaryTree.cs" />
+    <Compile Include="BinaryTree_ChildrenSum.cs" />
+    <Compile Include="BinaryTree_Height.cs" />
+    <Compile Include="BinaryTree_Max.cs" />
+    <Compile Include="BinaryTree_MaxDepth.cs" />
+    <Compile Include="BinaryTree_MaxWidth.cs" />
+    <Compile Include="BinaryTree_MinDepth.cs" />
+    <Compile Include="BinaryTree_PrintLeftMostNode.cs" />
+    <Compile Include="BinaryTree_Size.cs" />
+    <Compile Include="NodesAtKDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TreeBuilder.cs" />
+    <Compile Include="TreeNode.cs" />
+    <Compile Include="Validate_BinarySearchTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
