@@ -10,6 +10,9 @@ namespace DSA.Stack
     {
         static void Main(string[] args)
         {
+            ValidParenthesisWithStar withS = new ValidParenthesisWithStar();
+            bool isValid = withS.WithTwoStack("(())((())()()(*)(*()(())())())()()((()())((()))(*");
+
             ValidParenthesis vp = new ValidParenthesis();
             vp.IsValid("([]");
         }

@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Programs", "DSA.Program
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Array", "DSA.Array\DSA.Array.csproj", "{CF77D8D9-4201-4635-B6BB-0186627CD30A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.String", "DSA.String\DSA.String.csproj", "{1811CCC9-8811-430C-9CE4-86568BCA7FF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CF77D8D9-4201-4635-B6BB-0186627CD30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF77D8D9-4201-4635-B6BB-0186627CD30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF77D8D9-4201-4635-B6BB-0186627CD30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1811CCC9-8811-430C-9CE4-86568BCA7FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1811CCC9-8811-430C-9CE4-86568BCA7FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1811CCC9-8811-430C-9CE4-86568BCA7FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1811CCC9-8811-430C-9CE4-86568BCA7FF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

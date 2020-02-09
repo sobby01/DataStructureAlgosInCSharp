@@ -10,6 +10,21 @@ namespace DSA.LinkedList
     {
         static void Main(string[] args)
         {
+            //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+            ListNode objListNode = new ListNode(2);
+            objListNode.next = new ListNode(4);
+            objListNode.next.next = new ListNode(3);
+
+            //Reverse objRev = new Reverse();
+            //objRev.ReverseLinkedlist(objListNode);
+
+            ListNode objListNode1 = new ListNode(5);
+            objListNode1.next = new ListNode(6);
+            objListNode1.next.next = new ListNode(4);
+
+            AddTwoNumbers twoNumbers = new AddTwoNumbers();
+            twoNumbers.addTwoNumbers(objListNode, objListNode1);
+
 
             Console.WriteLine("\n Press number for following: \n");
             Console.WriteLine("Press 1 for Node Chain \n");

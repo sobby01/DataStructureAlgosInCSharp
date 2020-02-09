@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DSA.Array.SearchAlgos;
 
 namespace DSA.Array
 {
@@ -10,6 +11,21 @@ namespace DSA.Array
     {
         static void Main(string[] args)
         {
+            DominantNumber dn = new DominantNumber();
+            dn.DominantIndex(new int[] {0, 0, 3, 2});
+            dn.DominantIndex(new int[] { 3, 6, 1, 0 });
+            dn.DominantIndex(new int[] { 1, 2, 3, 4 });
+
+            int[] arr = new[] {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+            BinarySearch_Iterative iterative = new BinarySearch_Iterative();
+            iterative.BinarySearch(arr, 23, 0, arr.Length-1);
+
+            BinarySearch_Recursive recursive = new BinarySearch_Recursive();
+            recursive.BinarySearch(arr, 23, 0, arr.Length-1);
+
+            MaxSubArray subArray = new MaxSubArray();
+            subArray.maxSubArray(new int[]{1,2});
+            return;
             RainTrapWater trapWater = new RainTrapWater();
             trapWater.TrapWater(new int[] {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1});
             return;
