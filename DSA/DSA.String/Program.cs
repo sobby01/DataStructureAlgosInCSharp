@@ -10,6 +10,21 @@ namespace DSA.String
     {
         static void Main(string[] args)
         {
+            ToLowerString lowerString = new ToLowerString();
+            string loweredString = lowerString.ConvertTOLower("Hello");
+
+            loweredString = lowerString.ConvertTOLower("HELLO");
+
+            Max69Number n69obj = new Max69Number();
+            n69obj.Maximum69Number(9969);
+
+
+            BalancedString bs = new BalancedString();
+            bs.balancedString("WQWRQQQW");
+
+            GroupAnagrams groupAna = new GroupAnagrams();
+            groupAna.groupAnagrams(new string[] {"eat", "tea", "tan", "ate", "nat", "bat"});
+
             RomanToInt toInt = new RomanToInt();
             toInt.ToInt("MCMIV");
             

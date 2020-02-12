@@ -42,7 +42,7 @@ namespace DSA.Array
 
             for (int indexer = 0; indexer < nums.Length; indexer++)
             {
-                if()
+                //if()
             }
 
             if (nums[dominantIndex] < maxSquare && maxSquare/2 != nums[dominantIndex]) return -1;

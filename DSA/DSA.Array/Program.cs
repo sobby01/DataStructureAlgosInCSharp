@@ -11,6 +11,39 @@ namespace DSA.Array
     {
         static void Main(string[] args)
         {
+            UniqueIntegersSumZero sumZero = new UniqueIntegersSumZero();
+            sumZero.SumZero(4);
+
+            ReverseInteger rev = new ReverseInteger();
+            rev.Reverse(-123);
+
+            ArmstrongNumber aNumber = new ArmstrongNumber();
+            aNumber.IsArmstrong(153);
+
+            IntegerReplacement replacement = new IntegerReplacement();
+            replacement.integerReplacement(2147483647);
+
+            replacement.Replacement(11);
+
+
+            MinTImeVistingAllPoints objPOints = new MinTImeVistingAllPoints();
+            objPOints.MinTimeToVisitAllPoints(new int[][]
+            {
+                new []{
+                    1, 1
+                },
+                new []{
+                    3, 4
+                },
+                new []{
+                    -1, 0
+                }
+            });
+
+
+            MissingNumberinAP numberInAP= new MissingNumberinAP();
+            numberInAP.MissingNumber(new int[] {5, 7, 11, 13});
+
             DominantNumber dn = new DominantNumber();
             dn.DominantIndex(new int[] {0, 0, 3, 2});
             dn.DominantIndex(new int[] { 3, 6, 1, 0 });

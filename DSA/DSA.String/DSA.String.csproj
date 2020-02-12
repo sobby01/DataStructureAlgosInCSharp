@@ -44,8 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AreAnagram.cs" />
+    <Compile Include="BalancedString.cs" />
     <Compile Include="BalancedStrings.cs" />
+    <Compile Include="GroupAnagrams.cs" />
     <Compile Include="IPAddressDefanging.cs" />
+    <Compile Include="JewelsAndStones.cs" />
+    <Compile Include="KeyoardProb.cs" />
+    <Compile Include="Max69Number.cs" />
     <Compile Include="MinSwaps_StringEqual.cs" />
     <Compile Include="NumberOfStepsToZero.cs" />
     <Compile Include="PermutationPalindrome.cs" />
@@ -53,8 +58,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveVowels.cs" />
+    <Compile Include="ReplaceWords.cs" />
     <Compile Include="RomanToInt.cs" />
     <Compile Include="StringToAtoi.cs" />
+    <Compile Include="ToLowerString.cs" />
     <Compile Include="ValidNumber.cs" />
   </ItemGroup>
   <ItemGroup>

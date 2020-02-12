@@ -55,6 +55,7 @@
     <Compile Include="BinaryTree_MinDepth.cs" />
     <Compile Include="BinaryTree_PrintLeftMostNode.cs" />
     <Compile Include="BinaryTree_Size.cs" />
+    <Compile Include="BST_RangeSum.cs" />
     <Compile Include="NodesAtKDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

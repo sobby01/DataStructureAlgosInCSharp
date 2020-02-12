@@ -10,10 +10,15 @@ namespace DSA.LinkedList
     {
         static void Main(string[] args)
         {
+            //
+            //[1,0,1]
             //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-            ListNode objListNode = new ListNode(2);
-            objListNode.next = new ListNode(4);
-            objListNode.next.next = new ListNode(3);
+            ListNode objListNode = new ListNode(1);
+            objListNode.next = new ListNode(0);
+            objListNode.next.next = new ListNode(1);
+
+            ConvertBinaryNumberToInt toInt = new ConvertBinaryNumberToInt();
+            toInt.GetDecimalValue(objListNode);
 
             //Reverse objRev = new Reverse();
             //objRev.ReverseLinkedlist(objListNode);
