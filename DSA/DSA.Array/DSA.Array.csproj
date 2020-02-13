@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayIntersection.cs" />
+    <Compile Include="CellWithOddValues.cs" />
     <Compile Include="Combination.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="Decompress_RunLength_EncodedList.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="JumpArray.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
+    <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MinTImeVistingAllPoints.cs" />
     <Compile Include="MissingNumberinAP.cs" />
     <Compile Include="NumbersWithEvenDigits.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="SearchAlgos\BinarySearch_Iterative.cs" />
     <Compile Include="SearchAlgos\BinarySearch_Recursive.cs" />
     <Compile Include="SortArrayByParity.cs" />
+    <Compile Include="SquareOfSortedArray.cs" />
     <Compile Include="SubProdAndSumOFDigits.cs" />
     <Compile Include="TwoArrayIntersection.cs" />
     <Compile Include="TwoSum.cs" />

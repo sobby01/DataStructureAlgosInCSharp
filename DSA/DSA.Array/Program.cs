@@ -11,6 +11,16 @@ namespace DSA.Array
     {
         static void Main(string[] args)
         {
+            MergeSortedArray mergeArray1 =new MergeSortedArray();
+
+            mergeArray1.Merge(new int[]{ 1, 2, 3, 0, 0, 0 },3, new int[]{2,5,6},  3);
+
+            SquareOfSortedArray sortedArray = new SquareOfSortedArray();
+            sortedArray.SortedSquares(new int[] {-4, -1, 8, 3, 10});
+
+            CellWithOddValues objOddValues = new CellWithOddValues();
+            objOddValues.OddCells(2, 3, new[] {new int[]{0, 1}, new int[]{1, 1}});
+
             UniqueIntegersSumZero sumZero = new UniqueIntegersSumZero();
             sumZero.SumZero(4);
 

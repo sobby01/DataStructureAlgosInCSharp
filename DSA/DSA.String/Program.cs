@@ -10,6 +10,9 @@ namespace DSA.String
     {
         static void Main(string[] args)
         {
+            DecryptStringFromAToInt atoint = new DecryptStringFromAToInt();
+            atoint.FreqAlphabets("10#11#12");
+
             ToLowerString lowerString = new ToLowerString();
             string loweredString = lowerString.ConvertTOLower("Hello");
 
