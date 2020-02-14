@@ -10,6 +10,12 @@ namespace DSA.String
     {
         static void Main(string[] args)
         {
+            RemoveAllAdjascentDuplicates rDuplicates = new RemoveAllAdjascentDuplicates();
+            rDuplicates.RemoveDuplicates("abbaca");
+
+            FindCommonCharacter commonCharacter = new FindCommonCharacter();
+            commonCharacter.CommonChars(new string[] {"acabcddd", "bcbdbcbd", "baddbadb", "cbdddcac", "aacbcccd", "ccccddda", "cababaab", "addcaccd"});
+
             DecryptStringFromAToInt atoint = new DecryptStringFromAToInt();
             atoint.FreqAlphabets("10#11#12");
 

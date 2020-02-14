@@ -11,6 +11,21 @@ namespace DSA.Array
     {
         static void Main(string[] args)
         {
+            RelativeSortArray sortArrayRel = new RelativeSortArray();
+            sortArrayRel.relativeSortArray(new int[] {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19},
+                new int[] {2, 1, 4, 3, 9, 6});
+
+            LengthOfLongestFIbonaaciSequence lenFib = new LengthOfLongestFIbonaaciSequence();
+            lenFib.longestString(new int[] {1, 2, 3, 4, 5, 6, 7, 8});
+
+            PeekInMountainArray array1 = new PeekInMountainArray();
+            array1.FindPeakElement(new int[] {1, 2});
+
+            FIndInMountainArray mountainArray = new FIndInMountainArray();
+            mountainArray.findInMountainArray(2, new int[]
+            {1,5,2
+            });
+
             MergeSortedArray mergeArray1 =new MergeSortedArray();
 
             mergeArray1.Merge(new int[]{ 1, 2, 3, 0, 0, 0 },3, new int[]{2,5,6},  3);
