@@ -58,6 +58,7 @@
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
     <Compile Include="MergeSortedArray.cs" />
+    <Compile Include="MinIndexSumOfTwoLists.cs" />
     <Compile Include="MinTImeVistingAllPoints.cs" />
     <Compile Include="MissingNumberinAP.cs" />
     <Compile Include="NumbersWithEvenDigits.cs" />
