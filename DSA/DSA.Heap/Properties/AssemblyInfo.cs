@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DSA.Heap")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WInshuttle")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DSA.Heap")]
-[assembly: AssemblyCopyright("Copyright © WInshuttle 2019")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

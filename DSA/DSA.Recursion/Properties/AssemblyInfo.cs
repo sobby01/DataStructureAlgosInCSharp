@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DSA.Recursion")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WInshuttle")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DSA.Recursion")]
-[assembly: AssemblyCopyright("Copyright © WInshuttle 2020")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

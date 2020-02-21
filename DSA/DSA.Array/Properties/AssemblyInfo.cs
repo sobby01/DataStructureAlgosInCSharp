@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DSA.Array")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WInshuttle")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DSA.Array")]
-[assembly: AssemblyCopyright("Copyright © WInshuttle 2020")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

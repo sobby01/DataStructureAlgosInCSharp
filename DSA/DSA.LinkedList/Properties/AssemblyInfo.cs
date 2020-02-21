@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DSA.LinkedList")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WInshuttle")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DSA.LinkedList")]
-[assembly: AssemblyCopyright("Copyright © WInshuttle 2019")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

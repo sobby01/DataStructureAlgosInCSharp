@@ -10,12 +10,27 @@ namespace DSA.LinkedList
     {
         static void Main(string[] args)
         {
+            //1->2->3->4->5
             //
             //[1,0,1]
             //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
             ListNode objListNode = new ListNode(1);
-            objListNode.next = new ListNode(0);
-            objListNode.next.next = new ListNode(1);
+            objListNode.next = new ListNode(1);
+            RemoveLinkedList rll = new RemoveLinkedList();
+            rll.RemoveElements(objListNode, 1);
+
+            objListNode.next = new ListNode(2);
+            objListNode.next.next = new ListNode(6);
+            objListNode.next.next.next = new ListNode(3);
+            objListNode.next.next.next.next = new ListNode(4);
+            objListNode.next.next.next.next.next = new ListNode(5);
+            objListNode.next.next.next.next.next.next = new ListNode(6);
+
+            RemoveLinkedList rll2=new RemoveLinkedList();
+            rll2.RemoveElements(objListNode, 6);
+
+            Reverse revInBetween = new Reverse();
+            revInBetween.ReverseBetween(objListNode, 2, 4);
 
             ConvertBinaryNumberToInt toInt = new ConvertBinaryNumberToInt();
             toInt.GetDecimalValue(objListNode);

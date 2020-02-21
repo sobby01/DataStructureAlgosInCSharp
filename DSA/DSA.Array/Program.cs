@@ -11,6 +11,11 @@ namespace DSA.Array
     {
         static void Main(string[] args)
         {
+            string[] list11 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
+            string[] list12 = new String[] {"KFC", "Burger King", "Tapioca Express", "Shogun"};
+            MinIndexSumOfTwoLists minIndexer122 = new MinIndexSumOfTwoLists();
+            minIndexer122.FindRestaurant(list11, list12);
+
             RelativeSortArray sortArrayRel = new RelativeSortArray();
             sortArrayRel.relativeSortArray(new int[] {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19},
                 new int[] {2, 1, 4, 3, 9, 6});
