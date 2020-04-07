@@ -8,8 +8,29 @@ namespace DSA.String
 {
     class Program
     {
+        public static void Reverse(int[] arr)
+        {
+
+            int startPointer = 0;
+            int endPointer = arr.Length - 1;
+
+            while (startPointer <= endPointer)
+            {
+                int temp = arr[endPointer];
+                arr[endPointer] = arr[startPointer];
+                arr[startPointer] = temp;
+                startPointer++;
+                endPointer--;
+            }
+        }
+
         static void Main(string[] args)
         {
+            int[] arr = new[] {3, 4, 6, 7, 8, 9, 1};
+
+            Reverse(arr);
+
+
             RemoveAllAdjascentDuplicates rDuplicates = new RemoveAllAdjascentDuplicates();
             rDuplicates.RemoveDuplicates("abbaca");
 

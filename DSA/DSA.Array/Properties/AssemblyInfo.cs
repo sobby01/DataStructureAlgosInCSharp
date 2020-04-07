@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DSA.Array")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DSA.ArrayDataStructure")]
+[assembly: AssemblyDescription("Individual")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DSA.Array")]
+[assembly: AssemblyCompany("Individual")]
+[assembly: AssemblyProduct("DSA.ArrayDataStructure")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

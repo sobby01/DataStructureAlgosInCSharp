@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF77D8D9-4201-4635-B6BB-0186627CD30A}</ProjectGuid>
+    <ProjectGuid>{E4E4C464-DE6E-4E9D-A70F-C79900DEDBB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DSA.Array</RootNamespace>
-    <AssemblyName>DSA.Array</AssemblyName>
+    <RootNamespace>DSA.Sort</RootNamespace>
+    <AssemblyName>DSA.Sort</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,41 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArmstrongNumber.cs" />
-    <Compile Include="ArrayIntersection.cs" />
-    <Compile Include="CellWithOddValues.cs" />
-    <Compile Include="Combination.cs" />
-    <Compile Include="ContainerWithMostWater.cs" />
-    <Compile Include="Decompress_RunLength_EncodedList.cs" />
-    <Compile Include="DominantNumber.cs" />
-    <Compile Include="FindAnagramsMapping.cs" />
-    <Compile Include="FIndInMountainArray.cs" />
-    <Compile Include="IntegerReplacement.cs" />
-    <Compile Include="JumpArray.cs" />
-    <Compile Include="LengthOfLongestFIbonaaciSequence.cs" />
-    <Compile Include="MaxSubArray.cs" />
-    <Compile Include="Median_TwoSortedArray.cs" />
-    <Compile Include="MergeSortedArray.cs" />
-    <Compile Include="MinIndexSumOfTwoLists.cs" />
-    <Compile Include="MinTImeVistingAllPoints.cs" />
-    <Compile Include="MissingNumberinAP.cs" />
-    <Compile Include="NumbersWithEvenDigits.cs" />
-    <Compile Include="PeakIndexInMountain.cs" />
-    <Compile Include="PeekInMountainArray.cs" />
-    <Compile Include="PositiveIntegerSolutionWithinEquation.cs" />
+    <Compile Include="HeapSort.cs" />
+    <Compile Include="InsertionSort.cs" />
+    <Compile Include="ISorting.cs" />
+    <Compile Include="MergeSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RainTrapWater.cs" />
-    <Compile Include="RelativeSortArray.cs" />
-    <Compile Include="ReverseInteger.cs" />
-    <Compile Include="SearchAlgos\BinarySearch_Iterative.cs" />
-    <Compile Include="SearchAlgos\BinarySearch_Recursive.cs" />
-    <Compile Include="SortArrayByParity.cs" />
-    <Compile Include="SquareOfSortedArray.cs" />
-    <Compile Include="SubProdAndSumOFDigits.cs" />
-    <Compile Include="TwoArrayIntersection.cs" />
-    <Compile Include="TwoSum.cs" />
-    <Compile Include="UniqueIntegersSumZero.cs" />
+    <Compile Include="SelectionSort.cs" />
+    <Compile Include="ShellSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

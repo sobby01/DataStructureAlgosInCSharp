@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array
+namespace DSA.ArrayDataStructure
 {
     /*
      * Input: points = [[1,1],[3,4],[-1,0]

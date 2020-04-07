@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array
+namespace DSA.ArrayDataStructure
 {
     //Explaination
     //[0,1,0,2,1,0,1,3,2,1,2,1]

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array
+namespace DSA.ArrayDataStructure
 {
     /*
      * Given a positive integer n and you can do operations as follow:

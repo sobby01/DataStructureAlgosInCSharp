@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DSA.Array.SearchAlgos;
+using DSA.ArrayDataStructure.SearchAlgos;
 
-namespace DSA.Array
+namespace DSA.ArrayDataStructure
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string[] list11 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
-            string[] list12 = new String[] {"KFC", "Burger King", "Tapioca Express", "Shogun"};
+            int[] arr12 = new[] { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
+
+            BinarySearch_Recursive recursive1 = new BinarySearch_Recursive();
+            recursive1.BinarySearch(arr12, 23, 0, arr12.Length - 1);
+
+            string[] list11 = new string[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
+            string[] list12 = new string[] {"KFC", "Burger King", "Tapioca Express", "Shogun"};
             MinIndexSumOfTwoLists minIndexer122 = new MinIndexSumOfTwoLists();
             minIndexer122.FindRestaurant(list11, list12);
 

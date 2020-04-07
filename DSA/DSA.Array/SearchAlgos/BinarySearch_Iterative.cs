@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array.SearchAlgos
+namespace DSA.ArrayDataStructure.SearchAlgos
 {
     public class BinarySearch_Iterative
     {

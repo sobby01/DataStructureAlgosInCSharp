@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array
+namespace DSA.ArrayDataStructure
 {
     //Leetcode : 39
     //Leetcode : 40
