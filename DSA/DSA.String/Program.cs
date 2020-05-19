@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DSA.String
 {
     class Program
     {
+        static Regex newRegx1 = new Regex(@"^\d{1,15}($|(\.\d{1,3}$))");
+        private static Regex newRegx = new Regex("^((([-][0 - 9]{0, 12 })|([0 - 9]{0,12}))([.][0 - 9]{0,6}))$");
         public static void Reverse(int[] arr)
         {
 
@@ -26,6 +30,52 @@ namespace DSA.String
 
         static void Main(string[] args)
         {
+            //Thread.CurrentThread.CurrentCulture
+            string number = "123456789123";
+            int decimalIndex = number.LastIndexOf(".");
+            if (decimalIndex != 0 && decimalIndex <= 13 && number.Length <= 18 ||
+                decimalIndex == 0 && number.Length <= 12)
+            {
+                Console.WriteLine("Match1");
+            }
+
+            number = "12345678912356577";
+            decimalIndex = number.LastIndexOf(".");
+            if (decimalIndex!= -1 && decimalIndex <= 13 && number.Length <= 18 ||
+                decimalIndex == -1 && number.Length <= 12)
+            {
+                Console.WriteLine("Match1");
+            }
+
+            number = "123456789123.45678";
+             decimalIndex = number.LastIndexOf(".");
+            if (decimalIndex != -1 && decimalIndex <= 12 && number.Length <= 18 ||
+                decimalIndex == -1 && number.Length <= 12)
+            {
+                 Console.WriteLine("Match1");
+             }
+            
+             number = "1234567891223.45678";
+             decimalIndex = number.LastIndexOf(".");
+             if (decimalIndex != -1 && decimalIndex <= 12 && number.Length <= 18 ||
+                 decimalIndex == -1 && number.Length <= 12)
+            {
+                Console.WriteLine("Match1");
+            }
+            number = "123456781223.456789";
+             decimalIndex = number.LastIndexOf(".");
+             if (decimalIndex != -1 && decimalIndex <= 12 && number.Length <= 18 ||
+                 decimalIndex == -1 && number.Length <= 12)
+            {
+                Console.WriteLine("Match1");
+            }
+            number = "123456781223.4567898";
+             decimalIndex = number.LastIndexOf(".");
+             if (decimalIndex != -1 && decimalIndex <= 12 && number.Length <= 18 ||
+                 decimalIndex == -1 && number.Length <= 12)
+            {
+                Console.WriteLine("Match1");
+            }
             int[] arr = new[] {3, 4, 6, 7, 8, 9, 1};
 
             Reverse(arr);
