@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace DSA.ArrayDataStructure
 {
+
+    /* Problem Statement :
+     *
+     *
+     * 
+     */
     public class ArmstrongNumber
     {
         public bool IsArmstrong(int N)

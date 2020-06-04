@@ -49,12 +49,16 @@
     <Compile Include="CountSubstringsWIthUniqueLetters.cs" />
     <Compile Include="DecryptStringFromAToInt.cs" />
     <Compile Include="FindCommonCharacter.cs" />
+    <Compile Include="GetAscii.cs" />
     <Compile Include="GroupAnagrams.cs" />
     <Compile Include="IPAddressDefanging.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeyoardProb.cs" />
     <Compile Include="Max69Number.cs" />
     <Compile Include="MinSwaps_StringEqual.cs" />
+    <Compile Include="String Matching\KMP Substring.cs" />
+    <Compile Include="String Matching\RabinKarp.cs" />
+    <Compile Include="String Matching\StringMatcher.cs" />
     <Compile Include="NumberOfStepsToZero.cs" />
     <Compile Include="PermutationPalindrome.cs" />
     <Compile Include="PrintDuplicates.cs" />
@@ -68,6 +72,8 @@
     <Compile Include="StringToAtoi.cs" />
     <Compile Include="ToLowerString.cs" />
     <Compile Include="ValidNumber.cs" />
+    <Compile Include="WordPattern.cs" />
+    <Compile Include="String Matching\ZAlgorithm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

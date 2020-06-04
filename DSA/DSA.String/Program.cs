@@ -28,8 +28,67 @@ namespace DSA.String
             }
         }
 
+       
+        static int Compare(KeyValuePair<string, int> a, KeyValuePair<string, int> b)
+        {
+            if (a.Key.CompareTo(b.Key) == 0)
+            {
+                return a.Value.CompareTo(b.Value);
+            }
+            return a.Key.CompareTo(b.Key);
+        }
+
         static void Main(string[] args)
         {
+            var number1 = Console.ReadLine();
+            byte[] ASCIIValues = Encoding.ASCII.GetBytes(number1);
+            foreach (byte b in ASCIIValues)
+            {
+                Console.WriteLine(b);
+            }
+
+            //var number1 = Console.ReadLine();
+
+            //var val = (int)number1;
+            //Console.WriteLine(val);
+
+
+
+            Dictionary<string,int> list1 = new Dictionary<string, int>();
+            list1.Add("b5", 4);
+            list1.Add("b6", 5);
+            list1.Add("a7", 4);
+
+            var lklist1 = list1.OrderBy(x => x.Value).ThenBy(x=>x.Key);
+            foreach (KeyValuePair<string, int> pair in lklist1)
+            {
+
+            }
+
+           
+
+            Dictionary<string, int> list = new Dictionary<string, int>();
+            list.Add("b5", 4);
+            list.Add("b6", 5);
+            list.Add("b5", 4);
+            //list.OrderBy(x=>x.Value, new SeqComparer<KeyValuePair<string,int>>(new KeyValuePair<string,int>(x.Ke)));
+
+            //list.Contains
+
+
+            PermutationPalindrome pp1 = new PermutationPalindrome();
+            pp1.CheckPalindrome();
+
+            ZAlgorithm zAlgo = new ZAlgorithm();
+            var solutions = zAlgo.PatternMaching("bcdfgabcd", "abcd");
+
+            for (int i = 0; i < solutions.Count; i++)
+            {
+                Console.WriteLine(solutions[i]);
+            }
+
+            Console.ReadKey();
+
             //Thread.CurrentThread.CurrentCulture
             string number = "123456789123";
             int decimalIndex = number.LastIndexOf(".");

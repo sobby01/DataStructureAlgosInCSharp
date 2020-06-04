@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86BB0FD0-05FD-46AD-A567-B9469894CBCF}</ProjectGuid>
+    <ProjectGuid>{DA3ACBC3-A0D3-427D-86CA-D5A3699614C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DSA.Recursion</RootNamespace>
-    <AssemblyName>DSA.Recursion</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>DSA.DP</RootNamespace>
+    <AssemblyName>DSA.DP</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,17 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factorial.cs" />
-    <Compile Include="FibonacciNumber.cs" />
-    <Compile Include="JosephusProblem.cs" />
-    <Compile Include="Knapsack_1.cs" />
-    <Compile Include="MaxCutsInRod.cs" />
-    <Compile Include="PermutationOfString.cs" />
-    <Compile Include="Print1ToN.cs" />
+    <Compile Include="FibonacciWithMemoization.cs" />
+    <Compile Include="FibWithTabulation_Bottomup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reverse.cs" />
-    <Compile Include="TowerOfHanoi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
