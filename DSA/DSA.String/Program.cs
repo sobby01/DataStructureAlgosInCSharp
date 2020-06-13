@@ -40,6 +40,28 @@ namespace DSA.String
 
         static void Main(string[] args)
         {
+            CountAndSay cands = new CountAndSay();
+            var ss = cands.CountAndSay_Methody(6);
+            Console.WriteLine(ss);
+            Console.ReadKey();
+
+
+            LongestPalindromicSubstring lps = new LongestPalindromicSubstring();
+            Console.WriteLine(lps.LongestPSubstring());
+            Console.ReadKey();
+            CyclicPermutations cpermutations = new CyclicPermutations();
+            cpermutations.FindCyclicPermutations();
+
+            Tour cTour = new Tour();
+            cTour.CalculateTour();
+
+            TwitterTrend tt = new TwitterTrend();
+            tt.ChkTwitterTrends();
+
+
+            CommonPrime cp = new CommonPrime();
+            cp.GetPrime();
+
             var number1 = Console.ReadLine();
             byte[] ASCIIValues = Encoding.ASCII.GetBytes(number1);
             foreach (byte b in ASCIIValues)

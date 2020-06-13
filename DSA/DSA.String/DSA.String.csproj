@@ -46,7 +46,11 @@
     <Compile Include="AreAnagram.cs" />
     <Compile Include="BalancedString.cs" />
     <Compile Include="BalancedStrings.cs" />
+    <Compile Include="CommonPrime.cs" />
+    <Compile Include="Compartor.cs" />
+    <Compile Include="CountAndSay.cs" />
     <Compile Include="CountSubstringsWIthUniqueLetters.cs" />
+    <Compile Include="CyclicPermutations.cs" />
     <Compile Include="DecryptStringFromAToInt.cs" />
     <Compile Include="FindCommonCharacter.cs" />
     <Compile Include="GetAscii.cs" />
@@ -54,6 +58,7 @@
     <Compile Include="IPAddressDefanging.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeyoardProb.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="Max69Number.cs" />
     <Compile Include="MinSwaps_StringEqual.cs" />
     <Compile Include="String Matching\KMP Substring.cs" />
@@ -71,9 +76,12 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="StringToAtoi.cs" />
     <Compile Include="ToLowerString.cs" />
+    <Compile Include="Tour.cs" />
+    <Compile Include="TwitterTrend.cs" />
     <Compile Include="ValidNumber.cs" />
     <Compile Include="WordPattern.cs" />
     <Compile Include="String Matching\ZAlgorithm.cs" />
+    <Compile Include="ZigZagPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
