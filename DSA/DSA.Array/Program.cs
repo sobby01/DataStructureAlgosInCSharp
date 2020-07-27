@@ -11,6 +11,11 @@ namespace DSA.ArrayDataStructure
     {
         static void Main(string[] args)
         {
+
+            Combination cmbSum = new Combination();
+
+            var d = cmbSum.CombinationSum(new int[] { 2, 3, 6, 7 }, 7);
+
             int[] arr12 = new[] { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
 
             BinarySearch_Recursive recursive1 = new BinarySearch_Recursive();

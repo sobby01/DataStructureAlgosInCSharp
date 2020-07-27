@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,16 @@ using System.Threading.Tasks;
 
 namespace DSA.String
 {
+    public class MyClass
+    {
+        public string Name { get; set; }
+
+        public string Status { get; set; }
+
+        public List<string> ErrorCode { get; set; }
+
+    }
+
     class Program
     {
         static Regex newRegx1 = new Regex(@"^\d{1,15}($|(\.\d{1,3}$))");
@@ -26,9 +37,7 @@ namespace DSA.String
                 startPointer++;
                 endPointer--;
             }
-        }
-
-       
+        }       
         static int Compare(KeyValuePair<string, int> a, KeyValuePair<string, int> b)
         {
             if (a.Key.CompareTo(b.Key) == 0)
@@ -40,6 +49,16 @@ namespace DSA.String
 
         static void Main(string[] args)
         {
+            //Json Deserialize
+            List<MyClass> myClass = new List<MyClass>();
+
+            string json = "[{\"Name\":\"Medium Usage in Late Night Hours\",\"Status\":\"Failure\",\"ErrorCode\":[\"Policy_Not_Exist$##$Medium Usage in Late Night Hours\"]},{\"Name\":\"No Monthend Financial Postings\",\"Status\":\"Failure\",\"ErrorCode\":[\"Transaction_Not_Imported$##$No Monthend Financial Postings\"]},{\"Name\":\"High Usage\",\"Status\":\"Failure\",\"ErrorCode\":[\"Policy_Not_Exist$##$High Usage\"]}]"
+;
+
+            myClass = JsonConvert.DeserializeObject<List<MyClass>>(json);
+
+
+
             CountAndSay cands = new CountAndSay();
             var ss = cands.CountAndSay_Methody(6);
             Console.WriteLine(ss);
