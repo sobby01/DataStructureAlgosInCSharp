@@ -20,5 +20,30 @@ namespace DSA.Tree
             root.Right = left;
             return root;
         }
+
+        public TreeNode InvertTreeIterative(TreeNode root)
+        {
+            if (root == null)
+            {
+                return null;
+            }
+
+            Queue<TreeNode> q = new Queue<TreeNode>();
+            q.Enqueue(root);
+
+            while(q.Count > 0)
+            {
+                TreeNode currentNode = q.Dequeue();
+                TreeNode leftNode = currentNode.Left;
+                currentNode.Left = currentNode.Right;
+                currentNode.Right = leftNode;
+
+                if (currentNode.Left != null)
+                    q.Enqueue(currentNode.Left);
+                if (currentNode.Right != null)
+                    q.Enqueue(currentNode.Right);
+            }
+            return root;
+        }
     }
 }
