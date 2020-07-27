@@ -79,11 +79,11 @@ namespace DSA.Tree
             return rootNode;
         }
 
-        static void Main(string[] args)
+        private static void CheckInternalName()
         {
             Regex invalidChars = new Regex(@"[\\\\<>\[\]'""/;`,?!%]", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             string fieldName = "A[]B";
-            
+
             fieldName = invalidChars.Replace(fieldName, "_");
 
             Console.WriteLine(fieldName);
@@ -110,12 +110,41 @@ namespace DSA.Tree
             fieldNames.Add(intName);
 
 
-            foreach(string name in fieldNames)
+            foreach (string name in fieldNames)
             {
                 Console.WriteLine(name);
             }
 
             Console.ReadKey();
+        }
+
+        public static TreeNode BuildInvertTree()
+        {
+            TreeNode rootNode = new TreeNode(4);
+
+            TreeNode leftNode = new TreeNode(2);
+
+            TreeNode rightNode = new TreeNode(7);
+
+            leftNode.Left = new TreeNode(1);
+            leftNode.Right = new TreeNode(3);
+
+            rightNode.Left = new TreeNode(6);
+            rightNode.Right = new TreeNode(9);
+
+            rootNode.Left = leftNode;
+            rootNode.Right = rightNode;
+
+            return rootNode;
+        }
+
+        static void Main(string[] args)
+        {
+            TreeNode root1 = BuildInvertTree();
+            InvertTree iTree = new InvertTree();
+            TreeNode rr = iTree.InvertTreeM(root1);
+
+            CheckInternalName();
 
             TreeNode root = Build();
             BinaryTree_Height treeHeignt = new BinaryTree_Height();
