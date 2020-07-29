@@ -138,8 +138,50 @@ namespace DSA.Tree
             return rootNode;
         }
 
+        public static TreeNode BuildM1Tree()
+        {
+            TreeNode rootNode = new TreeNode(1);
+
+            TreeNode leftNode = new TreeNode(3);
+
+            TreeNode rightNode = new TreeNode(2);
+
+            leftNode.Left = new TreeNode(5);
+
+            rootNode.Left = leftNode;
+            rootNode.Right = rightNode;
+
+            return rootNode;
+        }
+
+        public static TreeNode BuildM2Tree()
+        {
+            TreeNode rootNode = new TreeNode(2);
+
+            TreeNode leftNode = new TreeNode(1);
+
+            TreeNode rightNode = new TreeNode(3);
+
+            leftNode.Right = new TreeNode(4);
+
+            rightNode.Right = new TreeNode(7);
+
+            rootNode.Left = leftNode;
+            rootNode.Right = rightNode;
+
+            return rootNode;
+        }
+
         static void Main(string[] args)
         {
+            TreeNode m1 = BuildM1Tree();
+
+            TreeNode m2 = BuildM2Tree();
+
+            MergeTree mTree = new MergeTree();
+            TreeNode mergeTree = mTree.MTreeBuild(m1, m2);
+
+
             TreeNode root1 = BuildInvertTree();
             InvertTree iTree = new InvertTree();
             TreeNode rr = iTree.InvertTreeM(root1);
