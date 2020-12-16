@@ -35,10 +35,14 @@ namespace DSA.Maths
 
         int GCDCalculator(int a, int b)
         {
-            if (a == 0)
-                return b;
+            //if (a == 0)
+            //    return b;
 
-            return GCDCalculator(b % a, a);
+            //return GCDCalculator(b % a, a);
+            if (b == 0)
+                return a;
+            int c = a % b;
+            return GCDCalculator(b, c);
         }
 
         public int SmallestDivisor(int n)

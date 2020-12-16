@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonPrimeDivisor.cs" />
+    <Compile Include="ComputePower.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="IsPrime.cs" />
     <Compile Include="LCM.cs" />

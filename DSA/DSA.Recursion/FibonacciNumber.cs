@@ -16,7 +16,8 @@ namespace DSA.Recursion
                 return 1;
             else
             {
-                return Fib(N - 1) + Fib(N - 2);
+                int sum = Fib(N - 1) + Fib(N - 2);
+                return sum;
             }
         }
     }

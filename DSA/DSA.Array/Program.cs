@@ -11,6 +11,14 @@ namespace DSA.ArrayDataStructure
     {
         static void Main(string[] args)
         {
+            MaxDistance md = new MaxDistance();
+            md.Calculate(new int[4] { 3, 5, 4, 2 });
+            //md.Calculate(new int[9] { 2, 7, 13, 4, 1, 3, 10, 8, 11});
+            return;
+
+            MaxMod mm = new MaxMod();
+            mm.Calculate(new List<int>() {11, 3, 4, 5, 9});
+            return;
 
             Combination cmbSum = new Combination();
 

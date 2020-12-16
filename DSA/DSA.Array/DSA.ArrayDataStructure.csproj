@@ -56,6 +56,8 @@
     <Compile Include="IntegerReplacement.cs" />
     <Compile Include="JumpArray.cs" />
     <Compile Include="LengthOfLongestFIbonaaciSequence.cs" />
+    <Compile Include="MaxDistance.cs" />
+    <Compile Include="MaxMod.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
     <Compile Include="MergeSortedArray.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="SortArrayByParity.cs" />
     <Compile Include="SquareOfSortedArray.cs" />
     <Compile Include="SubProdAndSumOFDigits.cs" />
+    <Compile Include="SumOfAdjacentNumbers.cs" />
     <Compile Include="TwoArrayIntersection.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="UniqueIntegersSumZero.cs" />
