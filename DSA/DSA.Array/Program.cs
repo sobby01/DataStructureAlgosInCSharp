@@ -11,6 +11,19 @@ namespace DSA.ArrayDataStructure
     {
         static void Main(string[] args)
         {
+
+            //A: [3, 4, 4, 6]
+            //B: [20, 4, 18, 2]
+            Solution123 ss = new Solution123();
+            ss.solve(new List<int>() { 3, 4, 4, 6 }, new List<int>() { 20, 4, 18, 2});
+
+            //ss.solve(new List<int>() { 23, 36, 58, 59 }, new List<int>() { 3, 207, 62, 654, 939, 680, 760, 835, 980 });
+            return;
+
+            LittlePonyAndMobilePhones lp = new LittlePonyAndMobilePhones();
+            lp.solve(new List<int>() { 23, 36, 58, 59 }, new List<int>() { 3, 207, 62, 654, 939, 680, 760,835,980 });
+            return;
+
             MaxDistance md = new MaxDistance();
             md.Calculate(new int[4] { 3, 5, 4, 2 });
             //md.Calculate(new int[9] { 2, 7, 13, 4, 1, 3, 10, 8, 11});
