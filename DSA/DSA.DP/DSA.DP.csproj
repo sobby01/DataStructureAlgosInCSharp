@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinChange.cs" />
     <Compile Include="FibonacciWithMemoization.cs" />
     <Compile Include="FibWithTabulation_Bottomup.cs" />
+    <Compile Include="HouseRobber.cs" />
+    <Compile Include="LongestCommonSubsequence.cs" />
+    <Compile Include="LongestPalindromeSubsequence.cs" />
+    <Compile Include="MaxSumWithNoTwoAdjElements.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

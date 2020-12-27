@@ -51,6 +51,7 @@
     <Compile Include="LinkedListDetectCycle.cs" />
     <Compile Include="LinkedlistIntersection.cs" />
     <Compile Include="LinkedList_ConnectedComponents.cs" />
+    <Compile Include="LinkedList_RecursiveSearch.cs" />
     <Compile Include="MiddleLinkedlist.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="OddEvenLinkedList.cs" />

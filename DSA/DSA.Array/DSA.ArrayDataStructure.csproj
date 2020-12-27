@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaUnderHill.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayIntersection.cs" />
     <Compile Include="CellWithOddValues.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="JumpArray.cs" />
     <Compile Include="LengthOfLongestFIbonaaciSequence.cs" />
     <Compile Include="LittlePonyAndMobilePhones.cs" />
+    <Compile Include="LittlePony_MaxValue.cs" />
     <Compile Include="MaxDistance.cs" />
     <Compile Include="MaxMod.cs" />
     <Compile Include="MaxSubArray.cs" />

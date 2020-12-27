@@ -10,6 +10,30 @@ namespace DSA.DP
     {
         static void Main(string[] args)
         {
+            CoinChange cc = new CoinChange();
+            int output = cc.GetCount(new int[] { 2, 5, 3, 6 }, 4, 10);
+            Console.WriteLine(output);
+            return;
+
+            MaxSumWithNoTwoAdjElements mm = new MaxSumWithNoTwoAdjElements();
+            int sum = mm.FindMaxSum(new int[] { 7, 2, 4, 9, 1 }, 5);
+            Console.WriteLine(sum);
+            return;
+
+            FibonacciWithMemoization fm = new FibonacciWithMemoization();
+            int fibVal = fm.CalculateFib(2);
+            Console.WriteLine(fibVal);
+            fibVal = fm.CalculateFib(0);
+            Console.WriteLine(fibVal);
+
+            fibVal = fm.CalculateFib(1);
+            Console.WriteLine(fibVal);
+            return;
+
+            LongestPalindromeSubsequence pSeq = new LongestPalindromeSubsequence();
+            pSeq.PrintLongestPalindromeSubseq("BBABCBCAB");
+            //Console.WriteLine(value);
+            return;
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");

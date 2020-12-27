@@ -16,8 +16,8 @@ namespace DSA.LinkedList
             //Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
             ListNode objListNode = new ListNode(1);
             objListNode.next = new ListNode(1);
-            RemoveLinkedList rll = new RemoveLinkedList();
-            rll.RemoveElements(objListNode, 1);
+            //RemoveLinkedList rll = new RemoveLinkedList();
+            //rll.RemoveElements(objListNode, 1);
 
             objListNode.next = new ListNode(2);
             objListNode.next.next = new ListNode(6);
@@ -25,6 +25,11 @@ namespace DSA.LinkedList
             objListNode.next.next.next.next = new ListNode(4);
             objListNode.next.next.next.next.next = new ListNode(5);
             objListNode.next.next.next.next.next.next = new ListNode(6);
+
+            LinkedList_RecursiveSearch rSearch = new LinkedList_RecursiveSearch();
+            int value = rSearch.Search(objListNode, 5);
+            Console.WriteLine(value);
+            return;
 
             RemoveLinkedList rll2=new RemoveLinkedList();
             rll2.RemoveElements(objListNode, 6);

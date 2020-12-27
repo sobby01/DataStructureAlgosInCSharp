@@ -13,10 +13,29 @@ namespace DSA.DP
             return CalculateRecursive(new int[n + 1], n);
         }
 
+        public int CalculateRecursive1(int[] memo, int n) {
+
+            if(memo[n] == 0)
+            {
+                int res;
+
+                if(n == 0 || n == 1)
+                {
+                    res = n;
+                }
+                else
+                {
+                    res = CalculateRecursive1(memo, n - 1) + CalculateRecursive1(memo, n - 2);
+                }
+                memo[n] = res;
+            }
+            return memo[n];
+        }
+
         public int CalculateRecursive(int[] memo, int n)
         {
-            if (n < 2)
-                return 1;
+            if (n == 0 || n ==1)
+                return n;
 
             if (memo[n] != 0)
                 return memo[n];
