@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBinaryStrings.cs" />
     <Compile Include="AreAnagram.cs" />
     <Compile Include="BalancedString.cs" />
     <Compile Include="BalancedStrings.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="CyclicPermutations.cs" />
     <Compile Include="DecryptStringFromAToInt.cs" />
     <Compile Include="FindCommonCharacter.cs" />
+    <Compile Include="FirstNonRepeating.cs" />
     <Compile Include="GetAscii.cs" />
     <Compile Include="GroupAnagrams.cs" />
     <Compile Include="IPAddressDefanging.cs" />

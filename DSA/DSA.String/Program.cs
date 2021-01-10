@@ -49,6 +49,12 @@ namespace DSA.String
 
         static void Main(string[] args)
         {
+
+            string A ="1010110111001101101000";
+string B="1000011011000000111100110";
+            AddBinaryStrings abs = new AddBinaryStrings();
+            abs.addBinary(A, B);
+
             //Json Deserialize
             List<MyClass> myClass = new List<MyClass>();
 

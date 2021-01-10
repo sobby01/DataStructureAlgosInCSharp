@@ -172,8 +172,40 @@ namespace DSA.Tree
             return rootNode;
         }
 
+        private static TreeNode PathSumTree() {
+            TreeNode rootNode = new TreeNode(10);
+            TreeNode leftNode = new TreeNode(5);
+            TreeNode rightNode = new TreeNode(-3);
+            rootNode.Left = leftNode;
+            rootNode.Right = rightNode;
+            rightNode.Right = new TreeNode(11);
+            TreeNode lNode = new TreeNode(3).Left = new TreeNode(3);
+            TreeNode rNode = new TreeNode(2).Right = new TreeNode(1);
+            leftNode.Left = lNode;
+            leftNode.Right = rNode;
+            return rootNode;
+        }
+
         static void Main(string[] args)
         {
+            int[] inorder = new int[]
+            {
+                20,10,40,30,50
+            };
+            int[] preorder = new int[]
+           {
+                10,20,30,40,50
+           };
+
+            InOrderPreOrderToTree inOrderConversion = new InOrderPreOrderToTree();
+            var n1 = inOrderConversion.Construct(inorder, preorder);
+            return;
+
+            PathSum ps = new PathSum();
+            int count = ps.PathSumBase(PathSumTree(), 8);
+            Console.WriteLine(count);
+            return;
+
             TreeNode m1 = BuildM1Tree();
 
             TreeNode m2 = BuildM2Tree();

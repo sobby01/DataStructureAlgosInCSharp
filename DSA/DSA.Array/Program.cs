@@ -9,8 +9,45 @@ namespace DSA.ArrayDataStructure
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
+
+            var abc = Math.Ceiling(Math.Log10(123));
+            Console.WriteLine(abc);
+            return;
+
+            Add1ToNumber add1 = new Add1ToNumber();
+            add1.plusOne(new List<int> { 0, 6, 0, 6, 4, 8, 8, 1 });
+            return;
+
+            Array_Faster af = new Array_Faster();
+            af.CheckLoop();
+            Console.ReadKey();
+            return;
+
+            PatternPrint pp = new PatternPrint();
+            //pp.printPattern(5);
+
+            pp.solve2(3);
+            return;
+
+            MaxEvenAndMinOdd memo = new MaxEvenAndMinOdd();
+            memo.solve(new List<int>() { -98, 54, -52, 15, 23, -97, 12, -64, 52, 85 });
+            return;
+
+            int[] highArr = new int[] { 947, 871, 859, 471, 763, 766, 379, 746, 485, 966, 10, 350, 341, 22, 706, 702, 717, 967, 641, 712, 10, 954, 751, 250, 777, 214, 820, 276, 708, 509, 123, 73, 593, 790, 797, 678, 320, 865, 392, 428, 611, 813, 655, 195, 102, 902, 919, 171, 706, 841, 873, 98, 128, 728, 878, 701, 874, 158, 548, 214, 414, 600, 869, 936, 841, 221, 87, 255, 233, 627, 487, 53, 270, 162, 517, 576, 240, 681, 172, 148, 86, 778, 205, 741, 483, 11, 795, 188, 450 };
+            int[] highArr1 = new int[] { 1,1,1,1,1,1,1,1,1,1,1,1 };
+
+            ELementsWithTwoGreatest twoGreatest = new ELementsWithTwoGreatest();
+            twoGreatest.solve(new int[] { 5,17,100,11 }.ToList());
+            //twoGreatest.solve(new int[] { 1, 2, 3, 4, 5 }.ToList());
+            return;
+
+            StrictHigherAndLower hal = new StrictHigherAndLower();
+            int vv = hal.Solve(highArr1.ToList());
+            Console.WriteLine(vv);
+            return;
 
             //A: [3, 4, 4, 6]
             //B: [20, 4, 18, 2]

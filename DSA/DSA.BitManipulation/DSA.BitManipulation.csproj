@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2483FD3-D255-4103-BA39-2D0E6D6028A6}</ProjectGuid>
+    <ProjectGuid>{B46B134B-6B05-44D1-B6E4-F857C07027C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DSA.Tree</RootNamespace>
-    <AssemblyName>DSA.Tree</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>DSA.BitManipulation</RootNamespace>
+    <AssemblyName>DSA.BitManipulation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,31 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BFS_LevelOrderTraveral_NewLine.cs" />
-    <Compile Include="BFS_LevelOrderTraversal.cs" />
-    <Compile Include="BinaryTreeToDoublyLinkedList.cs" />
-    <Compile Include="BinaryTree_BalancedBinaryTree.cs" />
-    <Compile Include="BinaryTree_ChildrenSum.cs" />
-    <Compile Include="BinaryTree_Height.cs" />
-    <Compile Include="BinaryTree_Max.cs" />
-    <Compile Include="BinaryTree_MaxDepth.cs" />
-    <Compile Include="BinaryTree_MaxWidth.cs" />
-    <Compile Include="BinaryTree_MinDepth.cs" />
-    <Compile Include="BinaryTree_PrintLeftMostNode.cs" />
-    <Compile Include="BinaryTree_Size.cs" />
-    <Compile Include="BST_RangeSum.cs" />
-    <Compile Include="InOrderPreOrderToTree.cs" />
-    <Compile Include="InvertTree.cs" />
-    <Compile Include="IsSubtreeOfAnother.cs" />
-    <Compile Include="MergeTree.cs" />
-    <Compile Include="NodesAtKDistance.cs" />
-    <Compile Include="PathSum.cs" />
+    <Compile Include="CheckEvenOdd.cs" />
+    <Compile Include="CountTotalSetBits.cs" />
+    <Compile Include="NumberOf1Bits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeBuilder.cs" />
-    <Compile Include="TreeNode.cs" />
-    <Compile Include="TreeSample.cs" />
-    <Compile Include="Validate_BinarySearchTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -43,15 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add1ToNumber.cs" />
+    <Compile Include="AddNumbers.cs" />
     <Compile Include="AreaUnderHill.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayIntersection.cs" />
+    <Compile Include="Array_Faster.cs" />
     <Compile Include="CellWithOddValues.cs" />
     <Compile Include="CircularArray.cs" />
     <Compile Include="Combination.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="Decompress_RunLength_EncodedList.cs" />
     <Compile Include="DominantNumber.cs" />
+    <Compile Include="ELementsWithTwoGreatest.cs" />
     <Compile Include="FindAnagramsMapping.cs" />
     <Compile Include="FIndInMountainArray.cs" />
     <Compile Include="IntegerReplacement.cs" />
@@ -60,6 +64,7 @@
     <Compile Include="LittlePonyAndMobilePhones.cs" />
     <Compile Include="LittlePony_MaxValue.cs" />
     <Compile Include="MaxDistance.cs" />
+    <Compile Include="MaxEvenAndMinOdd.cs" />
     <Compile Include="MaxMod.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
@@ -68,6 +73,7 @@
     <Compile Include="MinTImeVistingAllPoints.cs" />
     <Compile Include="MissingNumberinAP.cs" />
     <Compile Include="NumbersWithEvenDigits.cs" />
+    <Compile Include="PatternPrint.cs" />
     <Compile Include="PeakIndexInMountain.cs" />
     <Compile Include="PeekInMountainArray.cs" />
     <Compile Include="PositiveIntegerSolutionWithinEquation.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="SearchAlgos\BinarySearch_Recursive.cs" />
     <Compile Include="SortArrayByParity.cs" />
     <Compile Include="SquareOfSortedArray.cs" />
+    <Compile Include="StrictHigherAndLower.cs" />
     <Compile Include="SubProdAndSumOFDigits.cs" />
     <Compile Include="SumOfAdjacentNumbers.cs" />
     <Compile Include="TwoArrayIntersection.cs" />

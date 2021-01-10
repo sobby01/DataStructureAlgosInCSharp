@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Sort", "DSA.Sort\DSA.So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.DP", "DSA.DP\DSA.DP.csproj", "{DA3ACBC3-A0D3-427D-86CA-D5A3699614C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.BitManipulation", "DSA.BitManipulation\DSA.BitManipulation.csproj", "{B46B134B-6B05-44D1-B6E4-F857C07027C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DA3ACBC3-A0D3-427D-86CA-D5A3699614C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3ACBC3-A0D3-427D-86CA-D5A3699614C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3ACBC3-A0D3-427D-86CA-D5A3699614C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46B134B-6B05-44D1-B6E4-F857C07027C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46B134B-6B05-44D1-B6E4-F857C07027C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46B134B-6B05-44D1-B6E4-F857C07027C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46B134B-6B05-44D1-B6E4-F857C07027C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

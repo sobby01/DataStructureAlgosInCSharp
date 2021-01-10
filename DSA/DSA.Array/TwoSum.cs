@@ -31,5 +31,46 @@ namespace DSA.ArrayDataStructure
 
             return indexes.ToArray();
         }
+
+
+        public int solve(List<int> A, int B)
+        {
+            int count = 0;
+
+            List<int> li = new List<int>();
+
+            for (int i = 0; i < A.Count; i++)
+            {
+
+                int remainingValue = B - A[i];
+
+                if (li.Contains(remainingValue))
+                {
+                    count++;
+                }
+
+                if (!li.Contains(A[i]))
+                {
+                    li.Add(A[i]);
+                }
+            }
+
+            return count;
+            
+        }
+        private bool sumsToTarget(int[] arr, int k)
+        {
+            Array.Sort(arr);
+            int lhs = 0;
+            int rhs = arr.Count() - 1;
+            while (lhs < rhs)
+            {
+                int sum = arr[lhs] + arr[rhs];
+                if (sum == k) return true;
+                else if (sum < k) lhs++;
+                else rhs--;
+            }
+            return false;
+        }
     }
 }
