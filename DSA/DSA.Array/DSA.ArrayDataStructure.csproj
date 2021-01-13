@@ -50,6 +50,7 @@
     <Compile Include="ArrayIntersection.cs" />
     <Compile Include="Array_Faster.cs" />
     <Compile Include="CellWithOddValues.cs" />
+    <Compile Include="ChristmasTree.cs" />
     <Compile Include="CircularArray.cs" />
     <Compile Include="Combination.cs" />
     <Compile Include="ContainerWithMostWater.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="ELementsWithTwoGreatest.cs" />
     <Compile Include="FindAnagramsMapping.cs" />
     <Compile Include="FIndInMountainArray.cs" />
+    <Compile Include="FindMissingElement.cs" />
     <Compile Include="IntegerReplacement.cs" />
     <Compile Include="JumpArray.cs" />
     <Compile Include="LengthOfLongestFIbonaaciSequence.cs" />
@@ -65,13 +67,16 @@
     <Compile Include="LittlePony_MaxValue.cs" />
     <Compile Include="MaxDistance.cs" />
     <Compile Include="MaxEvenAndMinOdd.cs" />
+    <Compile Include="MaximumPositivity.cs" />
     <Compile Include="MaxMod.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
     <Compile Include="MergeSortedArray.cs" />
+    <Compile Include="MinimumWatchTV.cs" />
     <Compile Include="MinIndexSumOfTwoLists.cs" />
     <Compile Include="MinTImeVistingAllPoints.cs" />
     <Compile Include="MissingNumberinAP.cs" />
+    <Compile Include="MultiplicationOfPrevAndNext.cs" />
     <Compile Include="NumbersWithEvenDigits.cs" />
     <Compile Include="PatternPrint.cs" />
     <Compile Include="PeakIndexInMountain.cs" />

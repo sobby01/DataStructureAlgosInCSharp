@@ -10,8 +10,7 @@ namespace DSA.ArrayDataStructure
     {
         public string solve(List<int> A)
         {
-
-            int area = 0;
+            long area = 0;
 
             for (int i = 0; i < A.Count; i++)
             {

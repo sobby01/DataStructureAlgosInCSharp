@@ -12,6 +12,9 @@ namespace DSA.ArrayDataStructure
        
         static void Main(string[] args)
         {
+            List<int> A = new List<int>();
+            int[] aa = A.ToArray();
+
 
             var abc = Math.Ceiling(Math.Log10(123));
             Console.WriteLine(abc);
