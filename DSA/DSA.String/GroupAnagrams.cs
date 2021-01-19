@@ -45,5 +45,42 @@ namespace DSA.String
 
             return outputList;
         }
+
+        public List<List<int>> anagrams(List<string> A)
+        {
+            List<List<int>> list = new List<List<int>>();
+            Dictionary<string, List<int>> map = new Dictionary<string, List<int>>();
+
+            for(int i = 0; i< A.Count; i++)
+            {
+                char[] arr = A[i].ToCharArray();
+
+                Array.Sort(arr);
+                string str = new string(arr);
+               
+                if (map.ContainsKey(str))
+                {
+                    map.TryGetValue(str, out List<int> val);
+                    val.Add(i + 1);
+                    map[str] = val;
+                }
+                else
+                {
+                    map.Add(str, new List<int>() { i+1 });
+                }
+            }
+
+            int indexer = 0;
+            foreach(KeyValuePair<string, List<int>> pairs in map)
+            {
+                if(pairs.Value.Count > 1)
+                {
+                    list.Add(pairs.Value);
+                }
+                   
+            }
+
+            return list;
+        }
     }
 }

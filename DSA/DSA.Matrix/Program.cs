@@ -10,6 +10,16 @@ namespace DSA.Matrix
     {
         static void Main(string[] args)
         {
+            SpiralMatrix2 sp2 = new SpiralMatrix2();
+            sp2.GenerateMatrix(3);
+            return;
+
+
+            sp2.GenerateMatrixWithArray(3);
+            return;
+
+
+
             int[][] matrix2 = new int[3][];
 
             matrix2[0] = new int[3];

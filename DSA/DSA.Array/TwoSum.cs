@@ -21,12 +21,12 @@ namespace DSA.ArrayDataStructure
 
                 if (hashTable.ContainsKey(remainingTarget))
                 {
-                    indexes.Add(indexer);
+                    indexes.Add(indexer+1);
                     indexes.Add((int)hashTable[remainingTarget]);
                     break;
                 }
                 if (!hashTable.ContainsKey(nums[indexer]))
-                    hashTable.Add(nums[indexer], indexer);
+                    hashTable.Add(nums[indexer], indexer+1);
             }
 
             return indexes.ToArray();

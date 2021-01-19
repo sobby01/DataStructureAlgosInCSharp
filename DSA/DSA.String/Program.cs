@@ -50,6 +50,10 @@ namespace DSA.String
         static void Main(string[] args)
         {
 
+            GroupAnagrams ga = new GroupAnagrams();
+            ga.anagrams(new List<string>() { "cat", "dog", "god", "tca" });
+            return;
+
             string A ="1010110111001101101000";
 string B="1000011011000000111100110";
             AddBinaryStrings abs = new AddBinaryStrings();

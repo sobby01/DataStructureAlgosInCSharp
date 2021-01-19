@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}</ProjectGuid>
+    <ProjectGuid>{739DB481-320D-43A2-9881-7604F2BFB62E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DSA.Matrix</RootNamespace>
-    <AssemblyName>DSA.Matrix</AssemblyName>
+    <RootNamespace>DSA.HashingProblems</RootNamespace>
+    <AssemblyName>DSA.HashingProblems</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anti Diagonals.cs" />
-    <Compile Include="MatrixDiagonalSum.cs" />
-    <Compile Include="MatrixSnakePattern.cs" />
-    <Compile Include="MatrixTranspose.cs" />
-    <Compile Include="PrintBoundary.cs" />
+    <Compile Include="CommonElements.cs" />
+    <Compile Include="LC_525_ContiguousArray.cs" />
+    <Compile Include="PairsWithXOR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RotateImage.cs" />
-    <Compile Include="RotateMatrixBy90.cs" />
-    <Compile Include="SpiralMatrix.cs" />
-    <Compile Include="SpiralMatrix2.cs" />
+    <Compile Include="SubArrayWithGivenSum.cs" />
+    <Compile Include="ValidSudoku.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.BitManipulation", "DSA.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Matrix", "DSA.Matrix\DSA.Matrix.csproj", "{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.HashProblems", "DSA.HProblems\DSA.HashProblems.csproj", "{739DB481-320D-43A2-9881-7604F2BFB62E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739DB481-320D-43A2-9881-7604F2BFB62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739DB481-320D-43A2-9881-7604F2BFB62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739DB481-320D-43A2-9881-7604F2BFB62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739DB481-320D-43A2-9881-7604F2BFB62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
