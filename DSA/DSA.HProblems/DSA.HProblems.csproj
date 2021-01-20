@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonElements.cs" />
+    <Compile Include="IsAlienSorted.cs" />
     <Compile Include="LC_525_ContiguousArray.cs" />
+    <Compile Include="LongestConsecutiveSequence.cs" />
     <Compile Include="PairsWithXOR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

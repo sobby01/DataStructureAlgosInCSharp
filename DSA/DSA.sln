@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.BitManipulation", "DSA.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.Matrix", "DSA.Matrix\DSA.Matrix.csproj", "{46D0966E-4CBE-4318-BEF4-719CFB4F4A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.HashProblems", "DSA.HProblems\DSA.HashProblems.csproj", "{739DB481-320D-43A2-9881-7604F2BFB62E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.HProblems", "DSA.HProblems\DSA.HProblems.csproj", "{739DB481-320D-43A2-9881-7604F2BFB62E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

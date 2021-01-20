@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.HashingProblems
+namespace DSA.HProblems
 {
     public class ValidSudoku
     {
