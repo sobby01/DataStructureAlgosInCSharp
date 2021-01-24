@@ -53,6 +53,7 @@
     <Compile Include="RotateMatrixBy90.cs" />
     <Compile Include="SpiralMatrix.cs" />
     <Compile Include="SpiralMatrix2.cs" />
+    <Compile Include="WordSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

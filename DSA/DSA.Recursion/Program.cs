@@ -10,6 +10,17 @@ namespace DSA.Recursion
     {
         public static void Main(string[] args)
         {
+            CalculateRec crc = new CalculateRec();
+            int val = crc.SumOfDigits(873);
+            Console.WriteLine(val);
+
+            val = crc.SumOfDigits1(873);
+            Console.WriteLine(val);
+
+            PermutationString_Recursion permutations1 = new PermutationString_Recursion();
+            permutations1.GeneratePalindromes("ABC");
+            return;
+
             SumOfNNaturalNumbers sumN = new SumOfNNaturalNumbers();
             int ss = sumN.SumN(5);
             Console.WriteLine(ss);

@@ -50,6 +50,12 @@ namespace DSA.String
         static void Main(string[] args)
         {
 
+            CountAndSay cands = new CountAndSay();
+            var ss = cands.CountAndSay_Methody(6);
+            Console.WriteLine(ss);
+            Console.ReadKey();
+
+
             GroupAnagrams ga = new GroupAnagrams();
             ga.anagrams(new List<string>() { "cat", "dog", "god", "tca" });
             return;
@@ -69,10 +75,6 @@ string B="1000011011000000111100110";
 
 
 
-            CountAndSay cands = new CountAndSay();
-            var ss = cands.CountAndSay_Methody(6);
-            Console.WriteLine(ss);
-            Console.ReadKey();
 
 
             LongestPalindromicSubstring lps = new LongestPalindromicSubstring();

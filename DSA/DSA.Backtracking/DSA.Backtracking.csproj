@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boogle.cs" />
+    <Compile Include="LC_1641_CountSortedVowel.cs" />
     <Compile Include="KnightTour.cs" />
+    <Compile Include="LC_47Permutations2.cs" />
     <Compile Include="NQueen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

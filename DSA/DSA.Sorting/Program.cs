@@ -8,17 +8,25 @@ namespace DSA.Sorting
     {
         static void Main(string[] args)
         {
-            HeapSort hSort = new HeapSort();
-            int[] mykeys = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+            NobleElements ne = new NobleElements();
+            ne.GetElement(new List<int> { 6, 7, 5 });
+            return;
 
-            Console.WriteLine("\nOriginal Array Elements :");
-            hSort.printArray(mykeys);
+            //LargestNumber largestNumber = new LargestNumber();
+            //largestNumber.largeNumber(new List<int> {8, 3, 30, 34, 5,9 });
+            //return;
 
-            hSort.Sort(mykeys);
+            //HeapSort hSort = new HeapSort();
+            //int[] mykeys = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 
-            Console.WriteLine("\n\nSorted Array Elements :");
-            hSort.printArray(mykeys);
-            Console.WriteLine("\n");
+            //Console.WriteLine("\nOriginal Array Elements :");
+            //hSort.printArray(mykeys);
+
+            //hSort.Sort(mykeys);
+
+            //Console.WriteLine("\n\nSorted Array Elements :");
+            //hSort.printArray(mykeys);
+            //Console.WriteLine("\n");
 
         }
     }

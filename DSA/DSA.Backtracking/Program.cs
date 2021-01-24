@@ -13,6 +13,23 @@ namespace DSA.Backtracking
     {
         static void Main(string[] args)
         {
+            LC_1641_CountSortedVowel csv = new LC_1641_CountSortedVowel();
+            csv.CountVowelStrings(2);
+            return;
+
+            string key = "IBMhardwareis\r\n“All";
+            key = key.Replace(@"“", @"\");
+
+            Console.WriteLine(key);
+
+            //key = key.Replace(@"\r\n", @"\\r\\n").Replace(@"\r", @"\\r").Replace(@"\n", @"\\n").Replace(@"\f", @"\\f").Replace("”", "\"");
+            
+            
+
+            StringPermutations permutations = new StringPermutations();
+            permutations.PrintPermutations(new char[] { 'A', 'B', 'C' });
+            return;
+
             string str1 = "<wzip><SolutionData><TeamspaceId>TTRE-ERTQ-RRRR-WERT</TeamspaceId></SolutionData></wzip>";
 
             XDocument xdoc = XDocument.Parse(str1);
@@ -49,8 +66,7 @@ namespace DSA.Backtracking
             rp.allLexicographic(str);
             Console.ReadKey();
 
-            StringPermutations permutations = new StringPermutations();
-            permutations.PrintPermutations(new char[]{'A', 'B', 'C'});
+            
 
             Console.ReadKey();
 

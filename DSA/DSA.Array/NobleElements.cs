@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSA.Sorting
+namespace DSA.ArrayDataStructure
 {
     public class NobleElements
     {
@@ -36,7 +36,7 @@ namespace DSA.Sorting
 
             for (int i = 0; i < n; i++)
             {
-                if (arr[i] == arr[i + 1])
+                if (i + 1 < n && arr[i] == arr[i + 1])
                     continue;
 
                 if (arr[i] == n - i - 1)

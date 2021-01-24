@@ -10,6 +10,10 @@ namespace DSA.Sort
     {
         static void Main(string[] args)
         {
+            LargestNumber largestNumber = new LargestNumber();
+            largestNumber.largeNumber(new List<int> { 8, 3, 30, 34, 5, 9 });
+            return;
+
             HeapSort hSort = new HeapSort();
             int[] mykeys = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 

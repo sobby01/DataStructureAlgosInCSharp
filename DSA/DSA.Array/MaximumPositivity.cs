@@ -8,10 +8,10 @@ namespace DSA.ArrayDataStructure
 {
     public class MaximumPositivity
     {
-        public List<int> solve1(List<int> A)
-        {
+        //public List<int> solve1(List<int> A)
+        //{
 
-        }
+        //}
 
 
         public List<int> solve(List<int> A)
