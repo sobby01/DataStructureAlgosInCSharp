@@ -15,7 +15,6 @@ namespace DSA.Backtracking
 
         public int countStrings(int n, int value)
         {
-
             if (n == 0)
                 return 1;
             int result = 0;

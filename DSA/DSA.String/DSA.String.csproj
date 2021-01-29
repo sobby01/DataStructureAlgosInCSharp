@@ -63,6 +63,7 @@
     <Compile Include="IPAddressDefanging.cs" />
     <Compile Include="JewelsAndStones.cs" />
     <Compile Include="KeyoardProb.cs" />
+    <Compile Include="LCP.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="Max69Number.cs" />
     <Compile Include="MinSwaps_StringEqual.cs" />

@@ -48,6 +48,7 @@
     <Compile Include="HouseRobber.cs" />
     <Compile Include="LongestCommonSubsequence.cs" />
     <Compile Include="LongestPalindromeSubsequence.cs" />
+    <Compile Include="LongestRecurringSubsequence.cs" />
     <Compile Include="MaxSumWithNoTwoAdjElements.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

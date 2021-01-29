@@ -10,6 +10,14 @@ namespace DSA.Sort
     {
         static void Main(string[] args)
         {
+            MergeSort mSort = new MergeSort();
+            mSort.Sort_Detail(new int[] {5,2,3,1});
+            return;
+
+            SortColors sc = new SortColors();
+            var items = sc.SortM(new List<int> { 2, 0, 0, 1, 0, 0, 2, 2, 1, 1, 0, 0, 1, 0, 2,2,1});
+            return;
+
             LargestNumber largestNumber = new LargestNumber();
             largestNumber.largeNumber(new List<int> { 8, 3, 30, 34, 5, 9 });
             return;

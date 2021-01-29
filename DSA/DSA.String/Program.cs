@@ -49,6 +49,11 @@ namespace DSA.String
 
         static void Main(string[] args)
         {
+            string str = "qxkpvo  f   w vdg t wqxy ln mbqmtwwbaegx   mskgtlenfnipsl bddjk znhksoewu zwh bd fqecoskmo";
+            string str1 = "fwbpudnbrozzifml osdt ulc jsx kxorifrhubk ouhsuhf sswz qfho dqmy sn myq igjgip iwfcqq";
+            ReverseString rs = new ReverseString();
+            rs.solve(str);
+            return;
 
             CountAndSay cands = new CountAndSay();
             var ss = cands.CountAndSay_Methody(6);

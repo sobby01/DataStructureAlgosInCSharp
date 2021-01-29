@@ -41,9 +41,6 @@ namespace DSA.ArrayDataStructure
             }
 
             return A;
-
-
-
         }
     }
 }

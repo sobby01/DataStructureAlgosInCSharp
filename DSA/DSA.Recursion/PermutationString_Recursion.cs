@@ -8,18 +8,18 @@ namespace DSA.Recursion
 {
     public class PermutationString_Recursion
     {
-        public IList<string> GeneratePalindromes(string s)
+        public void GeneratePalindromes(string s)
         {
-            return GP(ref s, 0);
+            GP(ref s, 0);
         }
 
-        public IList<string> GP(ref string s, int i)
+        public void GP(ref string s, int i)
         {
             IList<string> ls = new List<string>();
             if (i == s.Length -1)
             {
-                ls.Add(s);
-                return ls;
+                Console.WriteLine(s);
+                return;
             }
             else
             {
@@ -32,8 +32,6 @@ namespace DSA.Recursion
                     Swap(ref s, j, i);
                 }
             }
-
-            return ls;
         }
 
         private void Swap( ref string s, int first, int second)

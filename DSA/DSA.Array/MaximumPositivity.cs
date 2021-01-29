@@ -8,10 +8,38 @@ namespace DSA.ArrayDataStructure
 {
     public class MaximumPositivity
     {
-        //public List<int> solve1(List<int> A)
-        //{
+        public List<int> maxset(List<int> A)
+        {
+            List<int> ls = new List<int>();
+            long currentSum = 0;
+            int startIndex = 0; int endIndex = 0;
+            long maxSum = long.MinValue;
+            for (int i = 0; i < A.Count; i++)
+            {
+                currentSum = 0;
+                int j = i;
 
-        //}
+                while (j < A.Count && A[j] >= 0)
+                {
+                    currentSum += A[j];
+                    j++;
+                }
+
+                if (currentSum > maxSum)
+                {
+                    startIndex = i;
+                    endIndex = j;
+                    maxSum = currentSum;
+                }
+                i = j;
+            }
+            for (int k = startIndex; k < endIndex; k++)
+            {
+                ls.Add(A[k]);
+            }
+
+            return ls;
+        }
 
 
         public List<int> solve(List<int> A)

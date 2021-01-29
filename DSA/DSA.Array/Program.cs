@@ -12,6 +12,52 @@ namespace DSA.ArrayDataStructure
        
         static void Main(string[] args)
         {
+            List<int> ll = new List<int>() { 1967513926, 1540383426, -1303455736, -521595368};
+            var l2 = new List<int> { 0, 0, -1, 0 };
+
+            MaximumPositivity mp = new MaximumPositivity();
+            mp.maxset(ll);
+            return;
+
+            int a = '#' - 'a';
+            Console.WriteLine(a);
+            return;
+
+            Beggers bg = new Beggers();
+            var v1 = bg.solveBookLover(new List<int> { 1, 2, 3, 1, 2, 3 });
+
+            v1 = bg.solveBookLover(new List<int> { 4,8,1,3,1 }); return;
+            var colle = new List<List<int>>()
+            {
+                new List<int>(){ 1,2,10},
+                new List<int>(){ 2,3,20},
+                new List<int>(){ 2,5,25},
+            };
+
+            var arrRes = bg.SolveBegger2(5, colle);
+            return;
+
+           
+            
+            ValidateSubsequence vs = new ValidateSubsequence();
+            vs.IsValidSubsequence(new List<int> { 5, 1, 22, 25, 6, -1, 8, 10 }, new List<int> { 1, 6, -1, 10 });
+            return;
+
+            ElementRemovalCost ec = new ElementRemovalCost();
+            ec.solve(new List<int>() { 3,0,9,7,8 });
+            return;
+
+            LC_345_ReverseVowels rv = new LC_345_ReverseVowels();
+            rv.reverseVowels("aA");
+            return;
+
+            int modNUm = 11;
+
+            Console.WriteLine(modNUm % 10);
+
+            return;
+
+
             var listA = new List<int> { 8, 16, 80, 55, 32, 8, 38, 40, 65, 18, 15, 45, 50, 38, 54, 52, 23, 74, 81, 42, 28, 16, 66, 35, 91, 36, 44, 9, 85, 58, 59, 49, 75, 20, 87, 60, 17, 11, 39, 62, 20, 17, 46, 26, 81, 92 };
             KthSmallestNumber ksm = new KthSmallestNumber();
             int ele = ksm.kthsmallest(listA, 9);

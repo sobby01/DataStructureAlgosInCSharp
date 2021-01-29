@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.String.String_Matching
+namespace DSA.LinkedList
 {
-    public class RabinKarp
+    public class AdditionOfTwoLinkedList
     {
 
     }

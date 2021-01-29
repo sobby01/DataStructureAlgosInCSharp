@@ -9,6 +9,40 @@ namespace DSA.String
 {
     public class ReverseString
     {
+        public string solve(string A)
+        {
+            if (!A.Contains(" "))
+            {
+                return A;
+            }
+            StringBuilder sb = new StringBuilder();
+            int endLength = A.Length - 1;
+            int startLength = 0;
+            string str = string.Empty;
+            for (int i = A.Length - 1; i >= 0; i--)
+            {
+                if (A[i] == ' ')
+                {
+                    startLength = i + 1;
+
+                    str = A.Substring(startLength, endLength - startLength + 1);
+                    str = str.Trim();
+                    if (!string.IsNullOrEmpty(str))
+                    {
+                        sb.Append(str);
+                        sb.Append(" ");
+                        endLength = i - 1;
+                    }
+                    
+                }
+            }
+
+            str = A.Substring(0, endLength - 0 + 1);
+            sb.Append(str);
+
+            return sb.ToString().Trim();
+        }
+
         public string ReverseWords(string s)
         {
             string[] splittedString = s.Split(' ');

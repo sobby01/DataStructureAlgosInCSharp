@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionOfTwoLinkedList.cs" />
     <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="ConvertBinaryNumberToInt.cs" />
     <Compile Include="DetectCycleInLinkedList.cs" />

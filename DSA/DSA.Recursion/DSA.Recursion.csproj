@@ -54,6 +54,7 @@
     <Compile Include="MaxCutsInRod.cs" />
     <Compile Include="PermutationOfString.cs" />
     <Compile Include="PermutationString_Recursion.cs" />
+    <Compile Include="PowerOf2_LessthanNumber.cs" />
     <Compile Include="Print1ToN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

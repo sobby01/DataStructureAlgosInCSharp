@@ -49,6 +49,7 @@
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayIntersection.cs" />
     <Compile Include="Array_Faster.cs" />
+    <Compile Include="Beggers.cs" />
     <Compile Include="CellWithOddValues.cs" />
     <Compile Include="ChristmasTree.cs" />
     <Compile Include="CircularArray.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="ContainerWithMostWater.cs" />
     <Compile Include="Decompress_RunLength_EncodedList.cs" />
     <Compile Include="DominantNumber.cs" />
+    <Compile Include="ElementRemovalCost.cs" />
     <Compile Include="ELementsWithTwoGreatest.cs" />
     <Compile Include="FindAnagramsMapping.cs" />
     <Compile Include="FIndInMountainArray.cs" />
@@ -63,6 +65,7 @@
     <Compile Include="IntegerReplacement.cs" />
     <Compile Include="JumpArray.cs" />
     <Compile Include="KthSmallestNumber.cs" />
+    <Compile Include="LC_345_ReverseVowels.cs" />
     <Compile Include="LengthOfLongestFIbonaaciSequence.cs" />
     <Compile Include="LittlePonyAndMobilePhones.cs" />
     <Compile Include="LittlePony_MaxValue.cs" />
@@ -98,7 +101,9 @@
     <Compile Include="SumOfAdjacentNumbers.cs" />
     <Compile Include="TwoArrayIntersection.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="UniqueElements.cs" />
     <Compile Include="UniqueIntegersSumZero.cs" />
+    <Compile Include="ValidateSubsequence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
