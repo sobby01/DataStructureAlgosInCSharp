@@ -10,6 +10,12 @@ namespace DSA.DP
     {
         static void Main(string[] args)
         {
+            DecodeWays dw = new DecodeWays();
+            dw.recursiveWithMemo(0, "10");
+            dw.Recursive_NumDecode(0, "10");
+            //dw.NumDecodings("12");
+            return;
+
             CoinChange cc = new CoinChange();
             int output = cc.GetCount(new int[] { 2, 5, 3, 6 }, 4, 10);
             Console.WriteLine(output);

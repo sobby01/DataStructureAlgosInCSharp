@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuyAndSellStock_Cooldown.cs" />
+    <Compile Include="BuyAndSellStock_2.cs" />
+    <Compile Include="BuyAndSellStock.cs" />
     <Compile Include="CoinChange.cs" />
+    <Compile Include="DecodeWays.cs" />
     <Compile Include="FibonacciWithMemoization.cs" />
     <Compile Include="FibWithTabulation_Bottomup.cs" />
     <Compile Include="HouseRobber.cs" />

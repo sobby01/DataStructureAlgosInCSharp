@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anti Diagonals.cs" />
+    <Compile Include="CalculatePrefixSum.cs" />
     <Compile Include="MatrixDiagonalSum.cs" />
     <Compile Include="MatrixSnakePattern.cs" />
     <Compile Include="MatrixTranspose.cs" />

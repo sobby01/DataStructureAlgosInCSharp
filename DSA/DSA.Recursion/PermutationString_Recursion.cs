@@ -8,7 +8,7 @@ namespace DSA.Recursion
 {
     public class PermutationString_Recursion
     {
-        public void GeneratePalindromes(string s)
+        public void GeneratePermutations(string s)
         {
             GP(ref s, 0);
         }

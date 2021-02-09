@@ -9,9 +9,19 @@ namespace DSA.ArrayDataStructure
 {
     class Program
     {
-       
+
         static void Main(string[] args)
         {
+            ToUpper tu = new ToUpper();
+            tu.to_upper(new List<char>() { 'A', '{', 't', 'e', 'J' });
+
+            MergeIntervals mi = new MergeIntervals();
+            mi.Merge(new int[][] {
+                new int[] { 1, 4 },
+                new int[] {0, 2 },
+                new int[] {3, 5 } });
+            return;
+
             List<int> ll = new List<int>() { 1967513926, 1540383426, -1303455736, -521595368};
             var l2 = new List<int> { 0, 0, -1, 0 };
 

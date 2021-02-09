@@ -9,10 +9,28 @@ using System.Threading.Tasks;
 
 namespace DSA.Maths
 {
+
+
+
+
+
+
+
+
     public class Program
     {
         static void Main(string[] args)
         {
+            string a1 = "678728391838182039102";
+            string b1 = "678728391838182039103";
+            EnumeratingGCDFromAToB enGCD = new EnumeratingGCDFromAToB();
+            string val = enGCD.solve(a1, b1);
+            return;
+            GCD mm = new GCD();
+            int result = mm.AllCommonDivisors(12, 16);
+            Console.WriteLine(result);
+            Console.ReadKey();
+            return;
             IsPrime ip = new IsPrime();
             Stopwatch st = new Stopwatch();
             st.Start();
@@ -40,11 +58,7 @@ namespace DSA.Maths
             //Console.WriteLine(value2);
             return;
 
-            GCD mm = new GCD();
-            int result = mm.AllCommonDivisors(12, 16);
-            Console.WriteLine(result);
-            Console.ReadKey();
-            return;
+            
 
             CommonPrimeDivisor pd = new CommonPrimeDivisor();
             var inputs = Console.ReadLine();

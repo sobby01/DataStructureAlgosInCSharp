@@ -75,6 +75,7 @@
     <Compile Include="MaxMod.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Median_TwoSortedArray.cs" />
+    <Compile Include="MergeIntervals.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MinimumWatchTV.cs" />
     <Compile Include="MinIndexSumOfTwoLists.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="StrictHigherAndLower.cs" />
     <Compile Include="SubProdAndSumOFDigits.cs" />
     <Compile Include="SumOfAdjacentNumbers.cs" />
+    <Compile Include="ToUpper.cs" />
     <Compile Include="TwoArrayIntersection.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="UniqueElements.cs" />

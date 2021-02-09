@@ -10,12 +10,16 @@ namespace DSA.Recursion
     {
         public static void Main(string[] args)
         {
+            Subsets_Cl sub = new Subsets_Cl();
+            var list = sub.FindSubsets(new int[] { 1, 2, 3 });
+            return;
+
             PowerOf2_LessthanNumber pln = new PowerOf2_LessthanNumber();
             pln.highestPowerof2(10);
             return;
 
             PermutationString_Recursion permutations1 = new PermutationString_Recursion();
-            permutations1.GeneratePalindromes("ABCD");
+            permutations1.GeneratePermutations("ABCD");
             return;
 
             CalculateRec crc = new CalculateRec();
