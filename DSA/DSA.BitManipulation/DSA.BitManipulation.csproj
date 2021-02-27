@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="CheckEvenOdd.cs" />
     <Compile Include="CountTotalSetBits.cs" />
+    <Compile Include="InvertBitsOfNumber.cs" />
+    <Compile Include="LengthOfNumber.cs" />
     <Compile Include="NumberOf1Bits.cs" />
+    <Compile Include="NumberOfBitsInNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

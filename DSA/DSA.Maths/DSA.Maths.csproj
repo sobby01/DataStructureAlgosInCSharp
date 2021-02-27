@@ -50,6 +50,7 @@
     <Compile Include="FindDigits.cs" />
     <Compile Include="IsPrime.cs" />
     <Compile Include="LCM.cs" />
+    <Compile Include="NumberOfDivisors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

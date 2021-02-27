@@ -11,6 +11,10 @@ namespace DSA.Recursion
         public void GeneratePermutations(string s)
         {
             GP(ref s, 0);
+            int[] s1 = new int[3] { 1, 2, 3 };
+            List<List<int>> collection = new List<List<int>>();
+            List<int> ss2 = s1.ToList();
+            collection.Add(ss2);
         }
 
         public void GP(ref string s, int i)

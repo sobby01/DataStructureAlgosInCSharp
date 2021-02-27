@@ -10,6 +10,12 @@ namespace DSA.BitManipulation
     {
         static void Main(string[] args)
         {
+            InvertBitsOfNumber ibon = new InvertBitsOfNumber();
+            int num = ibon.invertBits(10);
+
+            LengthOfNumber lon = new LengthOfNumber();
+            int length = lon.GetLength(1023);
+
             CheckEvenOdd cke = new CheckEvenOdd();
             cke.Check(6);
             return;

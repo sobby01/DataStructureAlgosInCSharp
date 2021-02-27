@@ -10,16 +10,20 @@ namespace DSA.HProblems
     {
         static void Main(string[] args)
         {
-            string[] wrd = new string[] { "fine", "none", "no" };
-            string w = "qwertyuiopasdfghjklzxcvbnm";
-            IsAlienSorted isAlienSorted = new IsAlienSorted();
-            isAlienSorted.IsAlien(wrd, w);
+            SubarrayWithSum subA = new SubarrayWithSum();
+            subA.solve(new List<int>() { 1,2,3,4,5}, 5);
             return;
 
-            List<int> l1 = new List<int> { 15, 2, 48, 19, 28, 22, 44, 2, 32, 46, 46, 24, 1, 23, 49, 26, 23, 17, 17, 46, 4, 30, 40, 36, 20, 5 };
-            l1 = new List<int> { 5, 10, 20, 100, 105 };
-            SubArrayWithGivenSum sa = new SubArrayWithGivenSum();
-            sa.solve(l1, 110);
+            //string[] wrd = new string[] { "fine", "none", "no" };
+            //string w = "qwertyuiopasdfghjklzxcvbnm";
+            //IsAlienSorted isAlienSorted = new IsAlienSorted();
+            //isAlienSorted.IsAlien(wrd, w);
+            //return;
+
+            //List<int> l1 = new List<int> { 15, 2, 48, 19, 28, 22, 44, 2, 32, 46, 46, 24, 1, 23, 49, 26, 23, 17, 17, 46, 4, 30, 40, 36, 20, 5 };
+            //l1 = new List<int> { 5, 10, 20, 100, 105 };
+            //SubArrayWithGivenSum sa = new SubArrayWithGivenSum();
+            //sa.solve(l1, 110);
 
 
             List<string> ls = new List<string>{ "53..7....", "6..195...", ".98....6.", "8...6...3", "4..8.3..1", "7...2...6", ".6....28.", "...419..5", "....8..79" };

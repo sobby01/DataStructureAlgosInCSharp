@@ -50,6 +50,7 @@
     <Compile Include="FibonacciWithMemoization.cs" />
     <Compile Include="FibWithTabulation_Bottomup.cs" />
     <Compile Include="HouseRobber.cs" />
+    <Compile Include="Knapsack01.cs" />
     <Compile Include="LongestCommonSubsequence.cs" />
     <Compile Include="LongestPalindromeSubsequence.cs" />
     <Compile Include="LongestRecurringSubsequence.cs" />
