@@ -45,9 +45,12 @@
     <Compile Include="CheckEvenOdd.cs" />
     <Compile Include="CountTotalSetBits.cs" />
     <Compile Include="InvertBitsOfNumber.cs" />
+    <Compile Include="KthSetBit.cs" />
     <Compile Include="LengthOfNumber.cs" />
     <Compile Include="NumberOf1Bits.cs" />
     <Compile Include="NumberOfBitsInNumber.cs" />
+    <Compile Include="OddManOut.cs" />
+    <Compile Include="PowerOf2.cs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

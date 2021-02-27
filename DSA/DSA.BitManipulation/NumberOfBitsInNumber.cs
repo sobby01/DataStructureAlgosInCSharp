@@ -14,5 +14,17 @@ namespace DSA.BitManipulation
 
             return x;
         }
+
+        public int SolveBitWise(int num)
+        {
+            int count = 0;
+            while (num != 0)
+            {
+                count++;
+                num >>= 1;
+            }
+
+            return count;
+        }
     }
 }
