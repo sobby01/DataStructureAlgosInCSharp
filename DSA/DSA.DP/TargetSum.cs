@@ -37,12 +37,10 @@ namespace DSA.DP
 
             //Now find all the subsets of targetSum
             return countSubsets(nums, targetSum, count);
-
         }
 
         private int countSubsets(int[] nums, int targetSum, int count)
         {
-
             int[,] dp = new int[nums.Length + 1, targetSum + 1];
 
             for (int i = 0; i <= nums.Length; i++)
