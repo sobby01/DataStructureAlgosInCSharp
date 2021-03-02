@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddBinaryStrings.cs" />
+    <Compile Include="AnagramSolver.cs" />
     <Compile Include="AreAnagram.cs" />
     <Compile Include="BalancedString.cs" />
     <Compile Include="BalancedStrings.cs" />

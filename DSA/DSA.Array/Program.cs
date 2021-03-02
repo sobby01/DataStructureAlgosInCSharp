@@ -9,7 +9,6 @@ namespace DSA.ArrayDataStructure
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             ToUpper tu = new ToUpper();
