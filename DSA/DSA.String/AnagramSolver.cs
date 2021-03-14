@@ -34,12 +34,10 @@ namespace DSA.String
 
                 for (int i = 0; i < 26; i++)
                 {
-
                     if (alphabetArray[i] != 0)
                     {
                         isAnagram = false;
                     }
-
                 }
 
                 if (isAnagram)
